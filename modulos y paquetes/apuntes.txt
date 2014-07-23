@@ -1,3 +1,4 @@
+(APUNTES)
 import database
 # from database import database as DB , Tabla
 db = database.database()
