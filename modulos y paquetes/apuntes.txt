@@ -30,3 +30,13 @@ Se debe crear el codigo de inicio una función main
 	if __name__ == "__main__" :
 		main()
 
+
+NameMangling
+__ Doble subrayado al inicio del metodo.
+	Si se pone el __ delanate del metodo 
+Ej:
+
+Importar codifo desde dentro de los paquetes
+como modulo: import escolar.database.db
+Si quisieramos hacerlo como escola.db habrá que declararlo en el __init__.py (from .database import db) "ROUTING"
+
