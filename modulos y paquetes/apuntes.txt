@@ -1,0 +1,32 @@
+import database
+# from database import database as DB , Tabla
+db = database.database()
+#hacer consultas en la base de datos
+
+#paquete = colección de modulos dentro de un directorio
+#imprescindible
+	# Debe de tener un archivo __init__.py
+	# 
+
+Tipos de imports para acceder modulos, metodos, clases
+	Absolutos: Especifica la ruta completa Separador los .  Ej: a) import escolar.alumnos.alumno = escolar.alumnos.Alumno[] 
+																b) from escolar.alumnos import Alumno
+																		alumno = Alumno
+																c)
+
+	Relativos: no necesitan refernciar la ruta completa		Ej	a)from .database import Database (hermanos)
+																b)from ..database import Database (padre)
+
+
+Namespaces
+Podemos instanciar un objeto de una clase y luego importar ese objeto
+class Database:
+#implementación
+database = Database ()
+from alumnos.database import database
+
+Importar un modulo y que no se ejecuten los ejecutables (para importar clases o objetos en programas distintos)
+Se debe crear el codigo de inicio una función main
+	if __name__ == "__main__" :
+		main()
+
